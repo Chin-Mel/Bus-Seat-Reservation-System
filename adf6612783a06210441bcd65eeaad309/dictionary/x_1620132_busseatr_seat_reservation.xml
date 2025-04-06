@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f3171b6883302210441bcd65eeaad36b" label="Seat Reservation" max_length="40" name="x_1620132_busseatr_seat_reservation" type="collection">
+        <element choice="3" default="Choose Status" label="Status" mandatory="true" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Completed" sequence="400"/>
+                <element inactive_on_update="false" label="Canceled" sequence="500"/>
+                <element inactive_on_update="false" label="Approved" sequence="200"/>
+                <element inactive_on_update="false" label="Awaiting Approval" sequence="100"/>
+                <element inactive_on_update="false" label="Rejected" sequence="300"/>
+            </choice>
+        </element>
+        <element label="Destination" max_length="40" name="destination" reference="x_1620132_busseatr_bus_stop" type="reference"/>
+        <element label="Origin" max_length="40" name="origin" type="string"/>
+        <element label="Applicant" max_length="40" name="applicant" type="string"/>
+        <element label="Seat Number" max_length="40" name="seat_number" type="string"/>
+        <element label="Bus" max_length="40" name="bus" reference="x_1620132_busseatr_bus_unit" type="reference"/>
+        <element display="true" label="Cost" mandatory="true" max_length="40" name="cost" type="currency"/>
+    </element>
+</database>

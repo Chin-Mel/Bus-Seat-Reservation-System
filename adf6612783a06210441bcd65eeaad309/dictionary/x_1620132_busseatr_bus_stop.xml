@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1fd3d7a083302210441bcd65eeaad301" label="Bus Stop" max_length="40" name="x_1620132_busseatr_bus_stop" type="collection">
+        <element label="Name" max_length="250" name="name" type="string"/>
+        <element choice="1" default="Choose Bus Stop Type" display="true" label="Type" mandatory="true" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Terminal" sequence="100"/>
+                <element inactive_on_update="false" label="Not Terminal" sequence="200"/>
+            </choice>
+        </element>
+    </element>
+</database>

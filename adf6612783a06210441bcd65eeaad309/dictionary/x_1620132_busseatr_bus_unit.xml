@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f1a453a483302210441bcd65eeaad31c" label="Bus Unit" max_length="40" name="x_1620132_busseatr_bus_unit" type="collection">
+        <element display="true" label="Departure Schedule" mandatory="true" max_length="40" name="departure_schedule" type="glide_date_time"/>
+        <element label="Company" mandatory="true" max_length="40" name="company" reference="x_1620132_busseatr_bus_company" type="reference"/>
+        <element label="Bus Stops" mandatory="true" max_length="40" name="bus_stop" reference="x_1620132_busseatr_bus_stop" type="reference"/>
+        <element label="Status" max_length="40" name="status" type="string"/>
+        <element choice="1" default="Choose Accessibility Type" label="Accessibility" max_length="40" name="accessibility" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Non-aircon" sequence="200"/>
+                <element inactive_on_update="false" label="Aircon" sequence="100"/>
+            </choice>
+        </element>
+    </element>
+</database>

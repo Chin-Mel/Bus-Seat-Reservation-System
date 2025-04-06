@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Fare Modifier">590d9b6083702210441bcd65eeaad3ad</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Fare Modifiers</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1620132_busseatr_fare_modifier</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_1620132_busseatr.fare_modifier_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-06 08:59:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>590d9b6083702210441bcd65eeaad3b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Fare Modifiers</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BusSeatReservationSystem" source="x_1620132_busseatr">adf6612783a06210441bcd65eeaad309</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BusSeatReservationSystem">adf6612783a06210441bcd65eeaad309</sys_scope>
+        <sys_update_name>sys_app_module_590d9b6083702210441bcd65eeaad3b0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-06 08:59:41</sys_updated_on>
+        <timeline_page/>
+        <title>Fare Modifiers</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BusSeatReservationSystem">adf6612783a06210441bcd65eeaad309</application>
+        <file_path/>
+        <instance_id>e1d81bccdb7971d039639027c5961942</instance_id>
+        <instance_name>dev181837</instance_name>
+        <name>sys_app_module_590d9b6083702210441bcd65eeaad3b0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Fare Modifier">590d9b6083702210441bcd65eeaad3ad</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Fare Modifiers</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1620132_busseatr_fare_modifier</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_1620132_busseatr.fare_modifier_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-06 08:59:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>590d9b6083702210441bcd65eeaad3b0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Fare Modifiers</sys_name><sys_overrides/><sys_package display_value="BusSeatReservationSystem" source="x_1620132_busseatr">adf6612783a06210441bcd65eeaad309</sys_package><sys_policy/><sys_scope display_value="BusSeatReservationSystem">adf6612783a06210441bcd65eeaad309</sys_scope><sys_update_name>sys_app_module_590d9b6083702210441bcd65eeaad3b0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-06 08:59:41</sys_updated_on><timeline_page/><title>Fare Modifiers</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1837341367</payload_hash>
+        <record_name>Fare Modifiers</record_name>
+        <reverted_from/>
+        <source>d55729a383a06210441bcd65eeaad38e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-06 08:59:41</sys_created_on>
+        <sys_id>110d9b6083702210441bcd65eeaad3b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1960a53bb5c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-06 08:59:41</sys_updated_on>
+        <type>Module</type>
+        <update_guid>150d9b607b702210d9922117051ebeb2</update_guid>
+        <update_guid_history>150d9b607b702210d9922117051ebeb2:1837341367</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Fare Modifiers">868ddba083702210441bcd65eeaad3ff</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-06 09:01:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>6a37a76bf20a4bb88b1fdb92074f8921</sys_id>
+        <sys_metadata>590d9b6083702210441bcd65eeaad3b0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Fare Modifiers</sys_name>
+        <sys_package display_value="BusSeatReservationSystem" source="x_1620132_busseatr">adf6612783a06210441bcd65eeaad309</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BusSeatReservationSystem">adf6612783a06210441bcd65eeaad309</sys_scope>
+        <sys_scope_delete display_value="">01d0420411ac41e88232071f1dae7a90</sys_scope_delete>
+        <sys_update_name>sys_app_module_590d9b6083702210441bcd65eeaad3b0</sys_update_name>
+        <sys_update_version display_value="sys_app_module_590d9b6083702210441bcd65eeaad3b0">110d9b6083702210441bcd65eeaad3b3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-06 09:01:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

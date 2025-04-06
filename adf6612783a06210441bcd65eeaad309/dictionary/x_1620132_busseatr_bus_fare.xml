@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="67eb1fac83302210441bcd65eeaad389" label="Bus Fare" max_length="40" name="x_1620132_busseatr_bus_fare" type="collection">
+        <element label="Aircon_Extra_Cost" max_length="20" name="aircon_extra_cost" type="currency"/>
+        <element label="Origin" max_length="32" name="origin" reference="x_1620132_busseatr_bus_stop" type="reference"/>
+        <element label="Patron Discount" max_length="20" name="patron_discount" type="decimal"/>
+        <element label="Company" max_length="32" name="company" reference="x_1620132_busseatr_bus_company" type="reference"/>
+        <element label="Base Fare" max_length="20" name="base_fare" type="currency"/>
+        <element label="Destination" max_length="32" name="destination" reference="x_1620132_busseatr_bus_stop" type="reference"/>
+        <index name="index">
+            <element name="company"/>
+        </index>
+        <index name="index2">
+            <element name="destination"/>
+        </index>
+        <index name="index3">
+            <element name="origin"/>
+        </index>
+    </element>
+</database>
